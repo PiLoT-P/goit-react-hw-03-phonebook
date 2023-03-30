@@ -1,0 +1,11 @@
+.btn{
+    display: block;
+    margin-top: 20px;
+}
+
+.form{
+    border: 2px solid black;
+    width: 350px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
