@@ -8,7 +8,7 @@ const TodoList = ({ contacts = [], removeTodo }) => {
             {contacts.map(({id, name, number }) => (
                 <li key={id}>
                     <p className={css.text}>{name}: {number}</p>
-                    <button onClick={(e) => removeTodo(id)}>
+                    <button className={css.btn} onClick={(e) => removeTodo(id)}>
                         Delete
                     </button>
                 </li>
